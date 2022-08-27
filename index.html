@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LabyrinThoS</title>
+        <meta name="description" content="Text-based adventure game written in TypeScript">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1><i class="fa fa-empire" aria-hidden="true"></i> Labyrin<span>T</span>ho<span>S</span></h1>
+                <p>Text-based adventure game written in <span>TypeScript</span></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">labyrinthos.sh</div>
+                <div id="game_console" class="panel-body console"></div>
+                <div class="panel-footer">
+                    <input id="command" class="form-control" type="text" placeholder="Type command..." autofocus>
+                </div>
+                <div class="panel-footer">
+                    <p>go | quit | help | score</p>
+                </div>
+            </div>
+        </div>
+        <script src="assets/main.js"></script>
+        <script>
+            var game = new Game(document.getElementById("game_console"),
+                                document.getElementById("command"));
+        </script>
+    </body>
+</html>
