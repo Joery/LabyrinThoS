@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css');
+
+body {
+    background-image: url(body.png);
+}
+
+.jumbotron {
+    background-image: url(header.png);
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.fa {
+    color: #294E80;
+}
+
+span {
+    color: #294E80;
+}
+
+.jumbotron .container p {
+    font-family: 'Muli', sans-serif;
+}
+
+.panel-heading {
+    font-family: 'Space Mono', monospace;
+}
+
+.console {
+    background: #000000;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    height: 280px;
+    overflow-y: scroll;
+ }
+
+.form-control {
+    font-family: 'Space Mono', monospace;
+}
+
+.panel-footer {
+    font-family: 'Muli', sans-serif;
+}
